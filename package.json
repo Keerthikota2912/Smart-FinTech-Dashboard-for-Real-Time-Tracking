@@ -1,0 +1,26 @@
+{
+  "name": "smart-fintech-dashboard",
+  "version": "1.0.0",
+  "description": "A Smart FinTech Dashboard for Real-Time Tracking of Financial Transactions.",
+  "main": "src/backend/api/index.js",
+  "scripts": {
+    "start": "node src/backend/api/index.js",
+    "test": "jest",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "kafka-node": "^5.0.0",
+    "cassandra-driver": "^4.6.0",
+    "flink-client": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.6",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.11.7"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
